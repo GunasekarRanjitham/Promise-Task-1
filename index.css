@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+body {
+    background-color: #735140f3 !important;
+}
+
+
+/*================ HEADER TEXT SHADOW ================= */
+ 
+.shad {
+    text-shadow: 1px 1px 1px #520b46;
+}
+
+
+/*========================HEADER FONT STYLE=================*/
+
+.head {
+    font-family: 'Reggae One', cursive;
+}
+
+
+/*==================== BOX ================= */
+
+.img-box {
+    height: 350px;
+    border-radius: 30px;
+    box-shadow: -3px -3px 6px black;
+}
+
+
+/*==================== output image ================= */
+
+.img-box img {
+    object-fit: cover;
+    border-radius: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #FFA100;
+    color: rgb(88, 74, 74);
+    border: 1px solid rgb(31, 78, 32);
+    box-shadow: inset 5px -7px 8px 4px rgb(31, 78, 32);
+}
